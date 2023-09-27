@@ -1,0 +1,18 @@
+{
+  "name": "bot-boca",
+  "version": "1.0.0",
+  "description": "Bot para entradas de boca",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "author": "Tomas Macia",
+  "license": "ISC",
+  "dependencies": {
+    "puppeteer": "^21.2.1",
+    "puppeteer-extra": "^3.3.6",
+    "puppeteer-extra-plugin-stealth": "^2.11.2"
+  }
+}
